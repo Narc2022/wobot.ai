@@ -10,6 +10,7 @@ import {
 import InputLabel from "@mui/material/InputLabel";
 import FormControl from "@mui/material/FormControl";
 import React from "react";
+import Solide_line from '../../assets/Solid_lines.png'
 
 const StyledBox = styled(Box)`
   height: auto;
@@ -69,10 +70,15 @@ const ButtonStyle = styled(Button)`
   color: #ffffff;
 `;
 
+const ImgStyle = styled('img')`
+margin: 0 auto;
+`
+
 const FormContainer = () => {
   return (
     <FormWrapper>
       <StyledBox>
+      <ImgStyle src={Solide_line} />
         <StyledTypo className="newh3" variant="h3">
           It's a delight to have you onboard
         </StyledTypo>
