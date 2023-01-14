@@ -24,7 +24,6 @@ const GetStartedPage = () => {
     <PageWrapper>
       <ImageStyle />
       <MiddleRectrangle />
-
     </PageWrapper>
   );
 };
