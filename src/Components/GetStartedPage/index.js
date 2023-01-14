@@ -2,14 +2,12 @@ import styled from "@emotion/styled";
 import { Box } from "@mui/material";
 import React from "react";
 import Logo from ".././../assets/wobot-logo_blue1@2x.png";
-import LeftRectrangleStrip from "./Partials/LeftRectrangleStrip";
 import MiddleRectrangle from "./Partials/MiddleRectrangle.js";
-import RightRectrangleStrip from "./Partials/RightRectrangleStrip";
 
 
 const GetStartedPage = () => {
   const PageWrapper = styled(Box)`
-    background: #e5e5e5;
+    background: #F9F9F9;
     height: 100vh;
     width: 100%;
   `;
